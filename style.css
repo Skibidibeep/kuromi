@@ -38,8 +38,8 @@ nav ul {
 }
 
 #HK {
-    height: 120px;
-    width: 120px;
+    height: 500px;
+    width: 500px;
     border: 15px solid rgb(246, 104, 210);
     border-radius: 100%;
     transition: .5s;
