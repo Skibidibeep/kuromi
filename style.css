@@ -14,8 +14,8 @@ nav ul {
 }
 
 #imgq {
-    height: 120px;
-    width: 120px;
+    height: 500px;
+    width: 500px;
     border: 15px solid rgb(105, 44, 116);
     border-radius: 100%;
     transition: .5s;
@@ -26,8 +26,8 @@ nav ul {
 }
 
 #melo {
-    height: 120px;
-    width: 120px;
+    height: 500px;
+    width: 500px;
     border: 15px solid rgb(212, 61, 174);
     border-radius: 100%;
     transition: .5s;
