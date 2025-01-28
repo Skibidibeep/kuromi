@@ -1,0 +1,287 @@
+.navigation-bar {
+    display: flex;
+    border: 10px solid rgb(83, 10, 34);
+    background-color: rgb(255, 127, 172);
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 500px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#imgq {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(105, 44, 116);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#imgq:hover {
+    scale: 1.1;
+}
+
+#melo {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(212, 61, 174);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#melo:hover {
+    scale: 1.1;
+}
+
+#HK {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(246, 104, 210);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#HK:hover {
+    scale: 1.1;
+}
+
+.Melody-container {
+    width: auto;
+    margin: 0 auto;
+    height: 650px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/melodysan.jpg");
+    gap: 20px;
+    align-content: flex-start;
+}
+
+#img1 {
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(212, 61, 174);
+    border-radius: 100%;
+    transition: 1s;
+    position: relative;
+    object-fit: cover;
+}
+
+#img1:active {
+    transform: scaleX(-1);
+    transition: 1s;
+}
+
+.item-2 {
+    text-align: center;
+    width: 500px;
+    height: 25px;
+    border: 5px solid rgb(212, 61, 174);
+    background-color: rgb(248, 141, 221);
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 35px;
+    flex-basis: 500px;
+    transition: height .5s;
+    transition-timing-function: cubic-bezier(cubic-ezierb(.44,.9,.57,.04));
+    overflow:hidden;
+    font-family: cursive;
+}
+
+.item-2:hover {
+    height: 145px;
+    font-size: 0;
+}
+
+.item-2:hover:after {
+    content: attr(Melody);
+    font-size: 20px;
+}
+
+.item-3 {
+    border: 5px solid rgb(212, 61, 174);
+    background-color: rgb(248, 141, 221);
+    font-size: 24px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    position: relative;
+    font-family: cursive;
+    padding-top: 5px;
+    left: 25%;
+}
+
+audio {
+    width: 300px;
+}
+
+.item-4 {
+    border: 5px solid rgb(212, 61, 174);
+    background-color: rgb(248, 141, 221);
+    position: relative;
+    top: 47%;
+    right: 65%;
+    width: 28%;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    height: 45%;
+    border-radius: 0px 50px 50px 0px;
+}
+.Alternate-Name {
+    position: relative;
+    font-family: cursive;
+    top: 3%;
+    left: 8%;
+}
+
+.Melobday {
+    position: relative;
+    top: 8%;
+    left: 22%;
+}
+
+.birth {
+    position: relative;
+    top: 13%;
+    left: 12%;
+}
+
+.gender {
+    position: relative;
+    top: 18%;
+    left: 25%;
+}
+
+.Home {
+    position: relative;
+    top: 23%;
+    left: 19.5%;
+}
+
+.species {
+    position: relative;
+    top: 28%;
+    left: 24.5%;
+}
+
+strong {
+    font-family: cursive;
+}
+
+span {
+    color: white;
+    font-family: cursive;
+}
+
+video {
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+    height: 280px;
+    border: 5px solid rgb(212, 61, 174);
+    margin-left: 10px;
+    border-radius: 50px
+}
+
+.item-6 {
+    width: 200px;
+    background-image: url("images/My_Melody_happy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 350px;
+    height: 250px;
+    left: 355px;
+    animation: melody 8s infinite ease-in-out;
+    animation-timeline: view(1);
+}
+
+@keyframes melody {
+    0% {left: 355px;}
+    50% {left: 600px;}
+    100% {left: 355px;}
+  }
+
+  .item-7 {
+    width: 200px;
+    background-image: url("images/heart.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 30px;
+    height: 250px;
+    left: 355px;
+    animation: heart-1 5s infinite;
+    animation-timeline: view(1);
+}
+
+@keyframes heart-1 {
+    0% {left: 355px;}
+    50% {left: 653px;}
+    100% {left: 355px;}
+  }
+
+.item-8 {
+    width: 200px;
+    background-image: url("images/heart.png");
+    transform: scaleX(-1);
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 30px;
+    height: 250px;
+    left: 800px;
+    animation: heart-2 5s infinite;
+    animation-timeline: view(1);
+}
+
+@keyframes heart-2 {
+    0% {left: 815px;}
+    50% {left: 555px;}
+    100% {left: 815px;}
+  }
+
+@media screen and (max-width: 800px) {
+    .navigation-bar {
+        width: 938px;
+        border: 6px solid rgb(83, 10, 34);
+        padding: 1px;
+    }
+
+    nav ul {
+        gap: 100px;
+    }
+
+    #imgq {
+        width: 130px;
+        height: 130px;
+    }
+
+    #melo {
+        width: 130px;
+        height: 130px;
+    }
+
+    #HK {
+        width: 130px;
+        height: 130px;
+    }
+}

@@ -1,0 +1,66 @@
+.navigation-bar {
+    display: flex;
+    border: 10px solid rgb(83, 10, 34);
+    background-color: rgb(255, 127, 172);
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 500px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#imgq {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(105, 44, 116);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#imgq:hover {
+    scale: 1.1;
+}
+
+#melo {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(212, 61, 174);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#melo:hover {
+    scale: 1.1;
+}
+
+#HK {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(246, 104, 210);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#HK:hover {
+    scale: 1.1;
+}
+
+.Kitty-container {
+    width: auto;
+    margin: 0 auto;
+    height: 650px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("hkwp.jpg");
+    gap: 20px;
+    align-content: flex-start;
+}

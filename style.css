@@ -1,0 +1,307 @@
+.navigation-bar {
+    display: flex;
+    border: 10px solid rgb(83, 10, 34);
+    background-color: rgb(255, 127, 172);
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 500px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#imgq {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(105, 44, 116);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#imgq:hover {
+    scale: 1.1;
+}
+
+#melo {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(212, 61, 174);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#melo:hover {
+    scale: 1.1;
+}
+
+#HK {
+    height: 500px;
+    width: 500px;
+    border: 15px solid rgb(246, 104, 210);
+    border-radius: 100%;
+    transition: .5s;
+}
+
+#HK:hover {
+    scale: 1.1;
+}
+
+.kuromi-container {
+    width: auto;
+    margin: 0 auto;
+    height: 2050px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/kuromisan.png");
+    gap: 20px;
+}
+
+#img1 {
+    width: 700px;
+    height: 700px;
+    border: 15px solid rgb(105, 44, 116);
+    border-radius: 100%;
+    transition: 1s;
+    position: relative;
+    object-fit: cover;
+    left: 40px;
+}
+
+#img1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.item-2 {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    border: 14px solid rgb(105, 44, 116);
+    background-color: rgb(188, 122, 188);
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 1px;
+    border-radius: 100px;
+    color: white;
+    font-size: 100px;
+    flex-basis: 1500px;
+    transition: height .5s;
+    transition-timing-function: cubic-bezier(cubic-ezierb(.44,.9,.57,.04));
+    overflow:hidden;
+    font-family: cursive;
+    left: 2%;
+}
+
+.item-2:hover {
+    height: 700px;
+    font-size: 0;
+}
+
+.item-2:hover:after {
+    content: attr(kuromi);
+    font-size: 65px;
+}
+
+video {
+    position: relative;
+    border: 14px rgb(105, 44, 116) solid;
+    left: 33%;
+    border-radius: 50px;
+    top: 2%;
+    height: 1000px;
+}
+
+.item-4 {
+    font-size: 60px;
+    width: 1500px;
+    height: 950px;
+    border: 14px solid rgb(105, 44, 116);
+    background-color: rgb(188, 122, 188);
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 0px 100px 100px 0px;
+    color: white;
+    position: relative;
+    top: 850px;
+    right: 64%;
+}
+
+.Alternate-Name {
+    position: relative;
+    font-family: cursive;
+    top: 3%;
+    left: 0%;
+}
+
+.Kuromibday {
+    position: relative;
+    top: 3%;
+    left: -3%;
+}
+
+.birth {
+    position: relative;
+    top: 3%;
+    left: -12.5%;
+}
+
+.gender {
+    position: relative;
+    top: 3%;
+    left: -7%;
+}
+
+.Home {
+    position: relative;
+    top: 3%;
+    left: -8%;
+}
+
+.species {
+    position: relative;
+    top: 3%;
+    left: -7%;
+}
+
+strong {
+    font-family: cursive;
+}
+
+span {
+    color: white;
+    font-family: cursive;
+}
+
+.item-6 {
+    font-size: 75px;
+    width: 19%;
+    height: 30%;
+    border: 14px solid rgb(105, 44, 116);
+    background-color: rgb(188, 122, 188);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 100px;
+    color: white;
+    position: relative;
+    left: 76%;
+    padding-top: 5px;
+}
+
+audio {
+    transform: scale(2.5);
+    width: 400px;
+}
+
+p {
+    font-family: cursive;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation-bar {
+        width: 938px;
+        border: 6px solid rgb(83, 10, 34);
+        padding: 1px;
+    }
+
+    nav ul {
+        gap: 100px;
+    }
+
+    #imgq {
+        width: 130px;
+        height: 130px;
+    }
+
+    #melo {
+        width: 130px;
+        height: 130px;
+    }
+
+    #HK {
+        width: 130px;
+        height: 130px;
+    }
+
+    .kuromi-container {
+        width: 913px;
+        height: 2010px;
+    }
+
+    #img1 {
+        border: 10px solid rgb(105, 44, 116);
+        position: relative;
+        width: 300px;
+        height: 300px;
+        bottom:-30px;
+        right: -35px;
+    }
+    
+    #img1:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    .item-2 {
+        flex-basis: 450px;
+        height: 100px;
+        border: 6px solid rgb(105, 44, 116);
+        position: relative;
+        left: 50px;
+        bottom: -50px;
+        font-size: 35px;
+        border-radius: 50px;
+    }
+
+    .item-2:hover {
+        height: 250px;
+    }
+
+    .item-2:hover:after {
+        font-size: 22px;
+    }
+
+    video {
+        width: 350px;
+        height: 350px;
+        border: 6px solid rgb(105, 44, 116);
+        top: 1000px;
+        left: 525px;
+        object-fit: cover;
+    }
+
+    .item-4 {
+        font-size: 28px;
+        width: 500px;
+        height: 450px;
+        border-radius: 0px 50px 50px 0px;
+        border: 6px solid rgb(105, 44, 116);
+        position: relative;
+        right: 350px;
+        top: -250px;
+        padding-top: 10px;
+    }
+
+    .item-6 {
+        font-size: 40px;
+        width: 400px;
+        height: 300px;
+        border: 6px solid rgb(105, 44, 116);
+        left: 35px;
+        top: 230px;
+        padding-top: 1px;
+    }
+
+    audio {
+        transform: scale(1.2);
+        width: 300px;
+    }
+}
