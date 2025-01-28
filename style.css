@@ -26,8 +26,8 @@ nav ul {
 }
 
 #melo {
-    height: 500px;
-    width: 500px;
+    height: 120px;
+    width: 120px;
     border: 15px solid rgb(212, 61, 174);
     border-radius: 100%;
     transition: .5s;
@@ -38,8 +38,8 @@ nav ul {
 }
 
 #HK {
-    height: 500px;
-    width: 500px;
+    height: 120px;
+    width: 120px;
     border: 15px solid rgb(246, 104, 210);
     border-radius: 100%;
     transition: .5s;
